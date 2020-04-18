@@ -1,0 +1,133 @@
+*
+{
+    font-family: consolas;
+}
+body
+{
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    line-height: 60px;
+    position: relative;
+    float: left;
+    margin: 16px 46px;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+.logo a
+{
+    color: #000;
+    text-decoration: none;
+}
+.logo a:hover
+{
+    color: #ff6565;
+}
+nav {
+    position: absolute;
+    width: 100%;
+    line-height: 60px;
+}
+nav ul {
+    line-height: 60px;
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: right;
+    margin: 0;
+    padding-right: 40px;
+    transition: 1s;
+}
+nav.black ul {
+    background: #fff;
+    opacity: 0.5;
+}
+nav ul li {
+    display: inline-block;
+    padding: 10px 20px;;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+nav ul li a:hover
+{
+    color: #ff6565;
+}
+footer
+{
+    padding: 30px 0;
+    text-align: center;
+}
+footer a
+{
+    text-decoration: none;
+    color: #ff6565;
+}
+footer a:hover
+{
+    color: #ff4a4a;
+}
+.container
+{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.container video, img
+{
+    width: 98%;
+    margin: 0;
+}
+.content h2
+{
+    font-size: 16px;
+    float: left;
+}
+.content h2:hover
+{
+    color: #ff6565;
+    cursor: pointer;
+}
+.content
+{
+    width: 80%;
+    margin: 4em auto;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: justify;
+}
+.content p span
+{
+	position: relative;
+	cursor: pointer;
+	text-decoration: underline;
+}
+.content p span:hover
+{
+    color: #ff6565;
+}
+.content p span .img
+{
+	position: absolute;
+	visibility: hidden;
+	z-index: 1;
+	width: 250px;
+}
+.content p span:hover .img
+{
+	visibility: visible;
+}
+.conter
+{
+    width: 90%;
+    margin: 3em auto;
+    font-size: 10px;
+    line-height: 25px;
+    text-align: justify;
+}

@@ -1,0 +1,235 @@
+body ,html {
+    margin:0;
+    padding:0;
+    height: 100%;
+}
+.pic1 {
+    background-image: url('../img/inc.gif');
+    min-height: 100%;
+}
+.pic2 {
+    background-image: url('../img/pic1.gif');
+    min-height: 450px;
+
+}
+.pic3 {
+    background-image: url('../img/pic2.gif');
+    min-height: 400px;
+}
+.pic4
+{
+    background-image: url('../img/pic3.gif');
+    min-height: 450px;
+}
+.pic5
+{
+    background-image: url('../img/pic4.gif');
+    min-height: 400px;
+}
+.pic6
+{
+    background-image: url('../img/pic5.gif');
+    min-height: 450px;
+}
+.pic7
+{
+    background-image: url('../img/pic6.gif');
+    min-height: 400px;
+}
+.pic8
+{
+    background-image: url('../img/pic7.gif');
+    min-height: 450px;
+}
+.pic9
+{
+    background-image: url('../img/pic8.gif');
+    min-height: 400px;
+}
+.pic10
+{
+    background-image: url('../img/pic9.gif');
+    min-height: 450px;
+}
+
+.pic11
+{
+    background-image: url('../img/pic10.gif');
+    min-height: 400px;
+}
+
+.pic1,.pic2,.pic3,.pic4,.pic5,.pic6.pic7,.pic8,.pic9,.pic10,.pic11 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    opacity: 0.9;
+    background-attachment: fixed;
+}
+.text1,.text2,.text3,.text4,.text5,.text6,.text7,.text8,.text9,.text10,.text11 {
+    position: absolute; 
+    width: 100%;
+    font-family:consolas ;
+    text-align: center;
+}
+.text1 {
+    
+    top: 50%;
+    color:#000;
+    font-size:70px;
+    letter-spacing: 1rem;   
+    font-weight: 900;
+}
+.text2 {
+    font-size:30px;
+    top: 20%;
+    color: #000;
+    font-weight:300;
+}
+.text3 {
+    top: 20%;
+    font-size:30px;   
+    font-weight:300;
+    color: #000;
+}
+.text4 {
+    top: 20%;
+    font-size:30px;   
+    font-weight:300;
+    color: #000;
+}
+.text5 {
+    top: 20%;
+    font-size:30px;   
+    font-weight:300;
+    color: #000;
+}
+.text6 {
+    top: 20%;
+    font-size:30px;   
+    font-weight:300;
+    color: #000;
+}
+.text7 {
+    top: 20%;
+    font-size:30px;   
+    font-weight:300;
+    color: #000;
+}
+.text8 {
+    top: 20%;
+    font-size:30px;   
+    font-weight:300;
+    color: #000;
+}
+.text9 {
+    top: 20%;
+    font-size:30px;   
+    font-weight:300;
+    color: #000;
+}
+.text10 {
+    top: 20%;
+    font-size:30px;   
+    font-weight:300;
+    color: #000;
+}
+
+.text11 {
+    top: 20%;
+    font-size:30px;   
+    font-weight:300;
+    color: #000;
+}
+section {
+    text-align:center;
+    padding:30px 70px;
+}
+.one {
+    background-color: beige;
+    color: black; 
+}
+.two {
+    background-color: darkslategray;
+    color: #fff;
+}
+.three {
+    background-color: darksalmon;
+    color:#000;
+}
+.four
+{
+    background-color: #ffde5d;
+    color: #000;
+}
+.five
+{
+    background-color: #87ff5d;
+    color: #000;
+}
+.six
+{
+    background-color: #5ddfff;
+    color: #000;
+}
+.seven
+{
+    background-color: #b55dff;
+    color: #000;
+}
+.eight
+{
+    background-color: #5d6eff;
+    color: #000;
+}
+.nine
+{
+    background-color: #ff5da7;
+    color: #000;
+}
+.ten
+{
+    background-color: #67d691;
+    color: #000;
+}
+.eleven
+{
+    background-color: #a758c2;
+    color: #000;
+}
+ h1 {
+    font-family: sans-serif;
+    font-size: 46px;
+
+}
+ p {
+    
+    font-family: serif;
+    font-size: 23px;
+}
+
+.top
+{
+    padding: 15px;
+    background: #fff;
+    font-size: 20px;
+	color: #ff6565;
+	position: fixed;
+	bottom: 20px;
+    right: 1285px;
+    text-decoration: none;
+    font-family: consolas;
+    cursor: pointer;
+}
+.buttom
+{
+    padding: 15px;
+    background: #fff;
+    font-size: 20px;
+	color: #ff6565;
+	position: fixed;
+	bottom: 20px;
+    right: 20px;
+    text-decoration: none;
+    font-family: consolas;
+}
